@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="l1">
+      <UniqueIdentifier>{8648c6ad-db43-459d-8d76-186453f5112a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="emvl2Impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entrypoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2Repo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2AppSelection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2ReadAppData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2OfflineDataAuth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2ProcessRestrict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2ProcessCVM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2TerminalRiskMng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2TermActionAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2GenAC1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2GenAC2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2SecUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emvl2GPO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="l1\bigdigits.c">
+      <Filter>l1</Filter>
+    </ClCompile>
+    <ClCompile Include="l1\deviceImpl.cpp">
+      <Filter>l1</Filter>
+    </ClCompile>
+    <ClCompile Include="l1\sha1.c">
+      <Filter>l1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2Impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entrypoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2Defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2Repo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2AppSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2ReadAppData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2OfflineDataAuth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2ProcessRestrict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2ProcessCVM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2TerminalRiskMng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2TermActionAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2GenAC1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2TagDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2SecUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2GPO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="l1\bigdigits.h">
+      <Filter>l1</Filter>
+    </ClInclude>
+    <ClInclude Include="l1\bigdtypes.h">
+      <Filter>l1</Filter>
+    </ClInclude>
+    <ClInclude Include="l1\deviceImpl.h">
+      <Filter>l1</Filter>
+    </ClInclude>
+    <ClInclude Include="l1\sha1.h">
+      <Filter>l1</Filter>
+    </ClInclude>
+    <ClInclude Include="emvl2GenAC2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
